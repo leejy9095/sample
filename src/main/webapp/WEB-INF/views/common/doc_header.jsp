@@ -1,74 +1,43 @@
 <%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
 
-<!-- wrap -->
-<div id="wrap">
-
-	<!-- skip_navi -->
-	<div id="skip_navi">
-		<ul>
-			<li><a href="#container">본문 바로가기</a></li>
-		</ul>
-	</div>
-	<!-- skip_navi -->
-
 	<!-- header -->
-	<div id="header">
-		<!-- util -->
-		<div class="util">
-			<div class="inner">
-				<ul class="link_list">
-					<li><a href="#" target="_blank" title="새창으로 열기">ㄱㄱㄱㄱ</a></li>
-					<li><a href="#">bbb</a></li>
-					<li class="lang">
-						<a href="/eng">ENG</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<!-- //util -->
-		<!-- gnb_wrap -->
-		<div class="gnb_wrap">
-			<div class="inner">
-				<h1 class="logo"><a href="/"><img src="/resources/images/comn/logo.png" alt="" /></a></h1>
-				<div class="gnb">
-					<ul>
-						<li class="menu nth1">
-							<a href="javascript:void(0);">ㄴㄴㄴ</a>
-							<ul class="depth2">
-								<li><a href="#">aaa</a></li>
-								<li><a href="#">bbb</a></li>
-								<li><a href="#">ccc</a></li>
-							</ul>
-						</li>
-						<li class="menu nth2">
-							<a href="javascript:void(0);">bbb</a>
-							<ul class="depth2">
-								<li><a href="#">aaa</a></li>
-								<li><a href="#">bbb</a></li>
-								<li><a href="#">ccc</a></li>
-							</ul>
-						</li>
-						<li class="menu nth3">
-							<a href="javascript:void(0);">ccc</a>
-							<ul class="depth2">
-								<li><a href="#">aaa</a></li>
-								<li><a href="#">bbb</a></li>
-								<li><a href="#">ccc</a></li>
-							</ul>
-						</li>
-						<li class="menu nth4">
-							<a href="javascript:void(0);">ddd</a>
-							<ul class="depth2">
-								<li><a href="#">aaa</a></li>
-								<li><a href="#">bbb</a></li>
-								<li><a href="#">ccc</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!-- //gnb_wrap -->
-		<div class="gnb_dim"></div>
-	</div>
-	<!-- //header -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+          <a class="brand" href="#">sample</a>
+          
+          <!-- nav-collapse -->
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">회원</a></li>
+              <li><a href="#">종합게시판</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">드롭다운예시 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">행동</a></li>
+                  <li><a href="#">다른 행동</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">탐색 제목</li>
+                  <li><a href="#">따로 떨어진 링크 하나 더</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+            <div class="navbar-form pull-right">
+              <button class="btn" onclick="goLogin()">로그인</button>
+              <button class="btn">영문</button>
+            </div>
+            
+          </div>
+          <!--//nav-collapse -->
+          
+        </div>
+      </div>
+    </div>
+    <!-- //header -->
