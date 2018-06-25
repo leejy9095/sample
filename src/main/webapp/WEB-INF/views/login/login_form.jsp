@@ -6,7 +6,7 @@
     <div class="container">
 
       <form class="form-signin">
-        <h2 class="form-signin-heading">로그인</h2>
+        <h2 class="form-signin-heading">로그인해주세요</h2>
         <input type="text" class="input-block-level" placeholder="이메일">
         <input type="password" class="input-block-level" placeholder="암호">
         <label class="checkbox">
